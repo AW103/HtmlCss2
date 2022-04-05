@@ -1,0 +1,33 @@
+.topBox {
+    background-color: lightgray;
+    padding: 1.5% 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+.smallBox {
+    background-color: rgb(96, 157, 255);
+    padding: 2%;
+}
+
+.centerBox {
+    text-align: left;
+    font-size: 15px;
+    margin: 3%;
+}
+
+.box1 {
+  background-color: rgb(96, 157, 255); 
+  padding: 7%;
+}
+.box2 {
+background-color: rgb(53, 255, 211);
+padding: 7%;
+}
+.box3 {
+background-color: rgb(202, 243, 154);
+padding: 7%;
+}
+.box4 {
+background-color: rgb(253, 246, 55);
+padding: 7%;
+}

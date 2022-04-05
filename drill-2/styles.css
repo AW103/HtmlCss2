@@ -1,0 +1,62 @@
+#flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+/* top box */
+.topBox{
+    border: solid black 5px;
+    margin: 1%;
+    align-items: flex-end;
+}
+.topBox > div {
+    justify-content: flex-start;
+    margin-right: 30px;
+}
+.firstShape {
+    background-color: rgb(94, 0, 94);
+    margin: 1%;
+    padding: 60px 20px;
+}
+.secondShape {
+    background-color: green;
+    padding: 80px 170px;
+    margin: 1%;
+}
+.thirdShape {
+    background-color: lightblue;
+    color: lightblue;
+    padding: 75px 70px;
+    border-radius:60%;
+    margin: 1%;
+}
+
+/* center Box */
+.centerBox {
+    border: dotted black 5px;
+    margin: 2% 1% 0;
+    justify-content: center;
+}
+.centerDiv{
+    background-color: rgb(255, 245, 193);
+    box-shadow: 10px 10px 10px rgb(66, 66, 66);
+    padding: 8% 46%;
+    margin: 3%;
+}
+
+/* bottom box */
+.bottomBox {
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottomDiv {
+    border: solid rgb(229, 229, 229) 1px;
+    box-shadow: 6px 6px 6px rgb(123, 123, 123);
+    padding: 8% 12%;
+    margin: 1%;
+}
